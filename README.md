@@ -68,4 +68,12 @@ nameserver 127.0.0.1
 search 7mnrckrh.vm
 
 
+
+
+
+منابع :
+https://www.youtube.com/watch?v=3p_rP1XPOPw
+https://www.youtube.com/watch?v=jCg6Yci7a5U
+
+
    
