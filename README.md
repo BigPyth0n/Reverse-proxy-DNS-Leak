@@ -27,7 +27,8 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 و ذخیره کردم
-   2) حالا مراحل نصب resolvconf رو پیش میریم با دستور sudo apt install resolvconf
+   2) حالا مراحل نصب resolvconf رو پیش میریم با دستور 
+sudo apt install resolvconf
    3) با دستور زیر resolvconf را استارت می کنیم.
 sudo systemctl start resolvconf.service
 sudo systemctl enable resolvconf.service
@@ -45,7 +46,7 @@ nameserver 77.223.128.222
 nameserver 1.1.1.1
 nameserver 8.8.4.4
   6) با دستورهای زیر dns ها را در resolvconf آپدیت می کنیم
-udo resolvconf --enable-updates 
+sudo resolvconf --enable-updates 
 sudo resolvconf -u
    7) سرویس resolvconf را مجددا راه اندازی میکنیم
 sudo systemctl restart resolvconf.service
