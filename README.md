@@ -16,16 +16,16 @@
 
 در محله چهارم که مربوط به DNS Leak است این مراحل رو در سرور مجازی ترکیه رفتم
    1) اول با دستور nano  /etc/hosts مطمئن شدم که هاست سرور مجازی در این فایل است یا خیر اگر نباشد خطای sudo: unable to resolve host 7mnrckrh.vm: Name or service not known رو میده بنابراین این نام دامنه رو بهش اضافه کردم که شد
-127.0.0.1 localhost
-127.0.1.1 ubuntu
-127.0.0.1 7mnrckrh.vm
+127.0.0.1 localhost\n
+127.0.1.1 ubuntu\n
+127.0.0.1 7mnrckrh.vm\n
 
-'# The following lines are desirable for IPv6 capable hosts'
-::1     ip6-localhost ip6-loopback
-fe00::0 ip6-localnet
-ff00::0 ip6-mcastprefix
-ff02::1 ip6-allnodes
-ff02::2 ip6-allrouters
+'# The following lines are desirable for IPv6 capable hosts'\n
+::1     ip6-localhost ip6-loopback\n
+fe00::0 ip6-localnet\n
+ff00::0 ip6-mcastprefix\n
+ff02::1 ip6-allnodes\n
+ff02::2 ip6-allrouters\n
 و ذخیره کردم
    2) حالا مراحل نصب resolvconf رو پیش میریم با دستور 
 sudo apt install resolvconf
