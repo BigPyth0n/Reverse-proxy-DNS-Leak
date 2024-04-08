@@ -20,7 +20,7 @@
 127.0.1.1 ubuntu
 127.0.0.1 7mnrckrh.vm
 
-# The following lines are desirable for IPv6 capable hosts
+'# The following lines are desirable for IPv6 capable hosts'
 ::1     ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
